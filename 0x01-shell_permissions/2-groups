@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(id -g -n)"
+echo $(id -g)"
