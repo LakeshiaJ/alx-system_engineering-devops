@@ -1,2 +1,2 @@
 #!/bin/bash
-egrep ^ [[ :alpha: ]] /etc/SSh/SShd_Config
+egrep ^ [[ : alpha : ]] /etc/SSh/SShd_Config
