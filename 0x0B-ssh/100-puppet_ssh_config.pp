@@ -3,9 +3,12 @@
 
 file { 'ect/ssh/ssh_config':
       ensure => present,
+
 content =>"
+
           #ssh client configuration
           host*
-         IdentityFile ~/.ssh/school
-         passwordAuthentification no
+          IdentityFile ~/.ssh/school
+          passwordAuthentification no
+
 }
